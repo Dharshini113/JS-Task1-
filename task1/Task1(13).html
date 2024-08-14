@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            "use strict"
+            var a=10;
+            delete a;
+            function fun(){
+                var b=20;
+            }
+            delete fun();
+            a=20;
+            function fun(a){
+                  delete a;
+            }
+
+        </script>
+    </head>
+</html>

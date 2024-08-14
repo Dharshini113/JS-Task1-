@@ -1,0 +1,18 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <script>
+                let myObject={
+                    value:50,
+                    TraditionalMethod:function(num){
+                        return this.value+num;
+                    },
+                    ArrowFunction:(num)=>{
+                        return this.value+num; 
+                    }
+                 };
+                 console.log(myObject.TraditionalMethod(20));
+                 console.log(myObject.ArrowFunction(2));
+            </script>
+        </head>
+    </html>
